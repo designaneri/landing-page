@@ -1,0 +1,747 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+/*General CSS Starts*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #231f20;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h2 {
+    color: #231f20;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #1d99ca;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/*Header CSS Starts*/
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header .navbar-brand {
+    height: auto;
+    padding: 2px 15px 0;
+}
+
+header .navbar-brand img {
+    max-width: 160px;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar {
+    min-height: inherit;
+    padding: 20px 0 7px;
+    margin-bottom: 0;
+    border: 0;
+    background: #FFF;
+}
+
+.navbar-nav {
+    margin: 2px 0 0 0;
+}
+
+.navbar-nav>li {
+    margin-right: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar-nav>li:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav>li>a {
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {
+    color: #1d99ca;
+}
+
+.navbar-toggle {
+    margin-top: -6px;
+}
+
+.navbar-default .navbar-collapse {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/*Header CSS Ends*/
+
+/*Banner CSS Starts*/
+
+.banner-main {
+    padding-top: 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-main h1 {
+    color: #393d3c;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.banner-main h1 span {
+    color: #15aeeb;
+}
+
+.banner-image {
+    margin-top: 40px;
+}
+
+.banner-image img {
+    max-width: 500px;
+    width: 90%;
+    display: inline-block;
+}
+
+.banner-left-element {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    z-index: -1;
+}
+
+.banner-left-element img {
+    max-width: 170px;
+}
+
+.banner-right-element {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    z-index: -1;
+}
+
+.banner-right-element img {
+    max-width: 160px;
+}
+
+/*Banner CSS Ends*/
+
+/*About CSS Starts*/
+
+.about-main {
+    padding-top: 85px;
+    position: relative;
+}
+
+.about-main:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 1px;
+    height: 45px;
+    top: 11px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.about-inner {
+    position: relative;
+}
+
+.about-aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-aside ul li {
+    padding-left: 40px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    background: url(../images/about-list-arrow.png) no-repeat;
+    min-height: 26px;
+    background-size: 26px;
+}
+
+.about-bg {
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    background: url(../images/about-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 290px;
+    max-height: 290px;
+}
+
+/*About CSS Ends*/
+
+/*Features CSS Starts*/
+
+.feature-main {}
+
+.feature-main h2 {
+    padding-top: 72px;
+}
+
+.feature-main .feature-inner-main {
+    padding-top: 11px;
+}
+
+.feature-content {
+    padding: 0 15px;
+}
+
+.feature-box {
+    margin-bottom: 30px;
+}
+
+.feature-content span {
+    min-height: 40px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.feature-content span img {
+    max-height: 40px;
+}
+
+.feature-content p {
+    font-size: 14px;
+}
+
+.feature-left.feature-content {
+    text-align: center;
+}
+
+.feature-right.feature-content {
+    text-align: center;
+}
+
+.feature-middle img {
+    max-width: 230px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+/*Features CSS Ends*/
+
+/*Key Differentiators Starts*/
+
+.key-differentiators {padding: 20px 0;}
+.key-differentiators p{font-size: 18px;line-height: 22px;color: #1d99ca;letter-spacing: 0.7px;margin-bottom: 30px;}
+.blue-block{background: #1d99ca;} 
+.light-blue-block{background: #54c0ed;} 
+.dark-blue-block{background: #244484;} 
+.yellow-block{background: #eeb832;} 
+.orange-block{background: #ff6f57;} 
+.grey-block{background: #f2f2f2;} 
+
+.grid-block{color: #f2f2f2;text-align: center;position: relative;}
+.grid-block-inner{padding: 35px 12px;position: absolute;top: 50%;left: 0;right: 0;transform: translateY(-50%);-moz-transform: translateY(-50%);-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);}
+.grid-block img{margin-bottom: 12px;max-width: 45px;}
+.grid-block span{display: block;font-size: 16px;line-height: 20px;}
+.grid-block-sm,.grid-block-md,.grid-block-lg{height: 160px;width: 100%;}
+.differentiators-table{width: 100%;}
+.differentiators-table tr td{width: 50%;float: left;display: block;}
+.differentiators-table,.differentiators-table tr,.differentiators-table tbody{display: block;}
+/*Key Differentiators Ends*/
+
+/*Signing Flow CSS Starts*/
+
+.flow-main {
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.flow-main h2 {
+    margin-bottom: 50px;
+}
+
+.flow-box {
+    margin-bottom: 30px;
+}
+
+.flow-box h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flow-box span {
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+
+.flow-box span img {
+    max-width: 210px;
+}
+
+.flow-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flow-box ul li {
+    color: #231f20;
+    font-size: 14px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    background: url(../images/flow-list-icon.png) no-repeat;
+    min-height: 27px;
+    background-size: 27px;
+}
+
+.flow-left-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.flow-right-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.flow-left-bg img {
+    max-width: 500px;
+}
+
+.flow-right-bg img {
+    max-width: 500px;
+}
+
+/*Signing Flow CSS Ends*/
+
+/*Benefits CSS Starts*/
+
+/*Benefits CSS Ends*/
+
+@media (min-width: 480px) {}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {
+    /*General CSS Starts*/
+    h2 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    /*Header CSS Starts*/
+    header .navbar-brand {
+        padding: 0 15px;
+    }
+    .navbar {
+        padding: 30px 15px;
+    }
+    .navbar-nav>li {
+        margin-right: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline;
+        width: auto;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+    }
+    .navbar-toggle {
+        margin-top: 0;
+    }
+    .navbar-default .navbar-collapse {
+        border-bottom: none;
+    }
+    /*Header CSS Ends*/
+    /*Banner CSS Starts*/
+    .banner-main {
+        padding-top: 150px;
+    }
+    .banner-main h1 {
+        font-size: 35px;
+    }
+    .banner-image {
+        margin-top: 100px;
+    }
+    .banner-image img {
+        max-width: 951px;
+    }
+    .banner-left-element {
+        bottom: 70px;
+    }
+    .banner-left-element img {
+        max-width: 444px;
+    }
+    .banner-right-element {
+        bottom: 120px;
+    }
+    .banner-right-element img {
+        max-width: 430px;
+    }
+    /*Banner CSS Ends*/
+    /*About CSS Starts*/
+    .about-main {
+        padding-top: 95px;
+    }
+    .about-aside {
+        float: right;
+    }
+    .about-aside h2 {
+        text-align: left;
+    }
+    .about-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: calc(50% - 10px);
+        max-height: inherit;
+        min-height: inherit;
+        margin-top: 0;
+    }
+    /*About CSS Ends*/
+    /*Features CSS Starts*/
+    .feature-content {
+        padding: 0;
+    }
+    .feature-box {
+        margin-bottom: 20px;
+    }
+    .feature-content span {
+        min-height: 30px;
+        margin-bottom: 10px;
+    }
+    .feature-content span img {
+        max-height: 30px;
+    }
+    .feature-left.feature-content {
+        text-align: right;
+    }
+    .feature-right.feature-content {
+        text-align: left;
+    }
+    .feature-middle img {
+        max-width: 461px;
+        margin-bottom: 0;
+    }
+    /*Features CSS Ends*/
+    /*Signing Flow CSS Starts*/
+    .flow-main {
+        padding-top: 70px;
+    }
+    .flow-box {
+        margin-bottom: 0;
+    }
+    .flow-box.flow-box-middle {
+        padding-top: 120px;
+    }
+    .flow-box span {
+        display: inline-block;
+    }
+    .flow-left-bg {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .flow-right-bg {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .flow-left-bg img {
+        max-width: 500px;
+    }
+    .flow-right-bg img {
+        max-width: 500px;
+    }
+    /*Signing Flow CSS Ends*/
+
+    .differentiators-table tr td{width: 20%;}
+    
+
+}
+
+@media (min-width: 992px) {
+    /*General CSS Starts*/
+    body {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    /*Header CSS Starts*/
+    header .navbar-brand img {
+        max-width: 200px;
+    }
+    .navbar-nav {
+        margin: 7px 0 0 0;
+    }
+    .navbar-nav>li {
+        margin-right: 60px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    /*Header CSS Ends*/
+    /*Banner CSS Starts*/
+    .banner-main {
+        padding-top: 170px;
+    }
+    .banner-main h1 {
+        font-size: 40px;
+    }
+    /*Banner CSS Ends*/
+    /*About CSS Starts*/
+    .about-main {
+        padding-top: 135px;
+    }
+    .about-aside ul li {
+        padding-left: 60px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    .about-bg {
+        width: calc(50% - 30px);
+    }
+    /*About CSS Ends*/
+    /*Features CSS Starts*/
+    .feature-main h2 {
+        padding-top: 102px;
+    }
+    .feature-box {
+        margin-bottom: 40px;
+    }
+    .feature-content span {
+        min-height: 40px;
+    }
+    .feature-content span img {
+        max-height: 40px;
+    }
+    /*Features CSS Ends*/
+    /*Signing Flow CSS Starts*/
+    .flow-main h2 {
+        margin-bottom: 60px;
+    }
+    .flow-box span {
+        margin-bottom: 50px;
+    }
+    .flow-box span img {
+        max-width: 300px;
+    }
+    .flow-box ul li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .flow-left-bg img {
+        max-width: 700px;
+    }
+    .flow-right-bg img {
+        max-width: 700px;
+    }
+    /*Signing Flow CSS Ends*/
+
+        /*Key Differentiators Starts*/
+    .grid-block{display: inline-table;vertical-align: bottom;}
+    .grid-block-sm{width: 165px;height: 135px;}
+    .grid-block-md {height: 162px;}
+    .grid-block-lg{height: 266px;}
+    .grid-block span{font-size: 16px;line-height: 20px;}
+    .grid-block-lg span {font-size: 32px;line-height: 36px;}
+    .grid-block-md span {font-size: 18px;line-height: 22px;}
+    .grid-block-inner{padding: 12px;display: table-cell;vertical-align: middle;position: static;transform: translateY(0);-moz-transform: translateY(0);-webkit-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);}
+    .grid-block img{max-width: 50px;}
+    .key-differentiators {padding: 43px 0;}
+    .differentiators-table{display: table;}
+    .differentiators-table tr{display: table-row;}
+    .differentiators-table tr td{vertical-align: bottom;float: none;display: table-cell;}
+    .differentiators-table tbody {display: table-row-group;}
+    .key-differentiators p{font-size: 22px;line-height: 26px;}
+    .differentiators-table tr td:first-child,.differentiators-table tr td:nth-child(6){width: 242px;}
+    .differentiators-table tr td:nth-child(2){width: 366px;}
+    .differentiators-table tr td:nth-child(3),.differentiators-table tr td:nth-child(4),.differentiators-table tr td:nth-child(5),.differentiators-table tr td:nth-child(7),.differentiators-table tr td:nth-child(8),.differentiators-table tr td:last-child{width: 135px;}
+    /*Key Differentiators Ends*/
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1200px) {
+    /*Banner CSS Starts*/
+    .banner-main h1 {
+        font-size: 45px;
+    }
+    /*Banner CSS Ends*/
+    /*About CSS Starts*/
+    .about-bg {
+        width: calc(50% - 50px);
+    }
+    /*About CSS Ends*/
+    /*Features CSS Starts*/
+    .feature-box {
+        margin-bottom: 50px;
+    }
+    .feature-content span {
+        margin-bottom: 15px;
+    }
+    .feature-content p {
+        font-size: 16px;
+    }
+    /*Features CSS Ends*/
+    /*Signing Flow CSS Starts*/
+    .flow-main {
+        padding-top: 102px;
+    }
+    .flow-main h2 {
+        margin-bottom: 100px;
+    }
+    .flow-box.flow-box-middle {
+        padding-top: 180px;
+    }
+    .flow-box h3 {
+        margin-bottom: 40px;
+    }
+    .flow-box span {
+        margin-bottom: 82px;
+    }
+    .flow-box span img {
+        max-width: inherit;
+    }
+    .flow-box ul li {
+        font-size: 18px;
+        margin-bottom: 34px;
+    }
+    /*Signing Flow CSS Ends*/
+    /*Signing Flow CSS Starts*/
+    .flow-left-bg img {
+        max-width: 900px;
+    }
+    .flow-right-bg img {
+        max-width: 900px;
+    }
+    /*Signing Flow CSS Ends*/
+    /*Key Differentiators Starts*/
+    .grid-block-sm{width: 135px;height: 135px;}
+    .hidden-desktop-small{display: none !important;}
+    .key-differentiators p{padding-left: 20px;}
+    /*Key Differentiators Ends*/
+}
+@media (min-width: 1366px) {
+    /*Key Differentiators Starts*/
+    .hidden-desktop-small{display: table-cell !important;}
+    /*Key Differentiators Ends*/
+}
+
+@media (min-width: 1500px) {
+    /*Banner CSS Starts*/
+    .banner-main {
+        padding-top: 203px;
+    }
+    .banner-main h1 {
+        font-size: 50px;
+    }
+    .banner-image {
+        margin-top: 120px;
+    }
+    .banner-left-element img {
+        max-width: 714px;
+    }
+    .banner-right-element img {
+        max-width: 770px;
+    }
+    /*Banner CSS Ends*/
+    /*About CSS Starts*/
+    .about-bg {
+        width: calc(50% - 80px);
+    }
+    /*About CSS Ends*/
+    /*Signing Flow CSS Starts*/
+    .flow-left-bg img {
+        max-width: 1315px;
+    }
+    .flow-right-bg img {
+        max-width: 1175px;
+    }
+    /*Signing Flow CSS Ends*/
+
+    /*Key Differentiators Starts*/
+    .grid-block-md {height: 242px;}
+    .grid-block-lg{height: 366px;}
+    .grid-block-sm{width: 155px;}
+    .grid-block span{font-size: 16px;line-height: 20px;}
+    .grid-block-lg span {font-size: 36px;line-height: 40px;}
+    .grid-block-md span {font-size: 22px;line-height: 26px;}
+    /*Key Differentiators Ends*/
+}
+
+@media (min-width: 1750px) {
+
+/*Key Differentiators Starts*/
+.grid-block-sm{height: 165px;width: 165px;}
+.grid-block-md{height: 272px;}
+.grid-block-lg{height: 396px;}
+.grid-block span{font-size: 20px;line-height: 24px;}
+.grid-block-md span{font-size: 26px;line-height: 30px;}
+.grid-block-lg span{font-size: 40px;line-height: 44px;}
+.grid-block-inner{padding: 20px 12px;}
+.key-differentiators {padding: 73px 0;}
+.grid-block img{max-width: initial;}
+.key-differentiators p{font-size: 26px;line-height: 30px;padding-left: 20px;margin-bottom: 10px;}
+.differentiators-table tr td:first-child,.differentiators-table tr td:nth-child(6){width: 272px;}
+.differentiators-table tr td:nth-child(2){width: 396px;}
+.differentiators-table tr td:nth-child(3),.differentiators-table tr td:nth-child(4),.differentiators-table tr td:nth-child(5),.differentiators-table tr td:nth-child(7),.differentiators-table tr td:nth-child(8),.differentiators-table tr td:last-child{width: 165px;}
+/*Key Differentiators Ends*/
+
+}
